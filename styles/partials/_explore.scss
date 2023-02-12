@@ -1,0 +1,124 @@
+div.exploreGIPHO {
+	background: #f0f0f0;
+	padding: 14px;
+	position: relative;
+	height:100vh;
+
+	.GIPHOface {
+		position: relative;
+	    float: left;
+	    padding: 5px;
+	    margin: 5px;
+	    width: 348px;
+	    text-align: center;
+	    overflow: hidden;
+	    height: 233px;
+	}
+
+	a {
+		color: #2891D4;
+	    position: relative;
+	    top: 19px;
+	}
+
+	.info {
+	    padding: 2px;
+	    float: left;
+	    position: relative;
+	    width: 29%;
+	    margin: 10px;
+	        margin-left: 26px;
+	    font-size: 12px;
+	    color: #476382;
+	}
+
+	.features {
+	    float: right;
+	    position: relative;
+	    width: 54%;
+	    margin: 10px;
+
+	    .feature {
+		    height: 180px;
+		    padding: 10px;
+		    border-bottom: 1px dashed #BBBBBB;
+    		box-shadow: 0 1px 0 #F9F9F9;
+
+		    .caption {
+			    position: absolute;
+			    width: 220px;
+
+			    h3 {
+					font-family: 'Script';
+				    margin-bottom: 0;
+				    font-size: 28px;
+				    color: #476382;
+				}
+
+				p {
+				    color: #8f9aa6;
+				    font-size: 13px;
+				    margin-top: 2px;
+				}
+			}
+
+			img {
+	    		float: right;
+			}
+		}
+	}
+
+	.pathFollower {
+		img {
+			right: 70px;
+    		position: relative;
+		}
+	}
+
+	.rotation {
+
+		.caption {
+			width: 260px;
+		}
+
+		img {
+			position: relative;
+		    top: 38px;
+		    right: 63px;
+		}
+	}
+
+	.layers {
+
+		.caption {
+			width: 317px;
+		}
+
+		img {
+			position: relative;
+		    top: 12px;
+		    right: 44px;
+		}
+	}
+
+	.backHome {
+		border: 1px solid #D6D6D6;
+	    background: rgba(0, 0, 0, 0.0301) url("../resources/images/arrow1.png") no-repeat center;
+	    display: block;
+	    background-position: center 13px;
+	    position: absolute;
+	    bottom: 76px;
+	    right: 10px;
+	    padding: 20px;
+	    border-radius: 60px;
+	    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+	    cursor:pointer;
+	    z-index:105;
+
+	    &:hover {
+	    	background-color: #DEDEDE;
+   			box-shadow: 0 0 10px #B5B5B5;
+	    }
+	}
+}
+
